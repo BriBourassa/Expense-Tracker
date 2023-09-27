@@ -1,5 +1,4 @@
-import { useState } from 'react'
-
+import ExpenseItem from '../ExpenseItem/ExpenseItem'
 import './App.css'
 
 function App() {
@@ -8,6 +7,7 @@ function App() {
   return (
     <div>
       <h2>these are words</h2>
+      <ExpenseItem />
     </div>
   )
 }
